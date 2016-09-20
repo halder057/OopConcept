@@ -23,7 +23,7 @@ namespace WindowsFormsApplication1
             this.radGridView1.MultiSelect = true;
 
             BindingSource source = new BindingSource();
-            List<string> firstName = new List<string> { "John", "Jim", "Jason", "Barbara", "Ben", "Thomas", "Antonio" };
+            List<string> firstName = new List<string> { "John Holder", "Jim", "Jason", "Barbara", "Ben", "Thomas", "Antonio" };
             List<string> lastName = new List<string> { "Baumer", "Davidson", "Jones", "Jolie", "Pitt", "Ashword", "Moreno" };
             for (int i = 0; i < 7; i++)
             {
