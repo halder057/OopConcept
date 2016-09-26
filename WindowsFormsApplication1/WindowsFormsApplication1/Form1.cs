@@ -77,8 +77,8 @@ namespace WindowsFormsApplication1
             //    searchRow.IsVisible = false;
                 
             //}
-
-            this.radGridView1.Rows[1].Cells[2].Value = 2;
+            this.radGridView1.Focus();
+            this.radGridView1.Rows[2].Cells[2].IsSelected = true;
             
         }
 
@@ -89,6 +89,7 @@ namespace WindowsFormsApplication1
             {
                 searchCell.SearchTextBox.Focus();
             }
+            var cells = radGridView1.SelectedCells.ToList();
         }
     }
 }
